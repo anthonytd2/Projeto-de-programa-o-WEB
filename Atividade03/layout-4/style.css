@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: #000000;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px 40px;
+    border: 5px solid red;
+}
+
+.logo-slot {
+    border: 3px dashed blue;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-right: 40px;
+    color: #00ff00;
+}
+
+.nav-slot {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    border: 3px dashed green;
+    padding: 10px;
+}
+
+.nav-item {
+    border: 1px solid gray;
+    padding: 5px;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding: 40px;
+    border: 5px solid black;
+}
+
+.section-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border: 5px solid yellow;
+    padding: 20px;
+}
+
+.section-title {
+    border: 3px dashed cyan;
+    font-size: 1.8rem;
+    width: 350px;
+    padding: 5px;
+}
+
+.vertical-cards-row {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    border: 5px solid magenta;
+    padding: 15px;
+    overflow-x: auto;
+}
+
+.card-vertical {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 280px;
+    height: 350px;
+    border: 3px dashed white;
+    background-color: #111;
+}
+
+.number-slot {
+    font-size: 7rem;
+    font-weight: bold;
+    color: #000;
+    -webkit-text-stroke: 3px #fff;
+    border: 2px solid orange;
+    padding: 0 10px;
+    width: 100px;
+    text-align: right;
+}
+
+.card-img {
+    width: 150px;
+    height: 100%;
+    object-fit: cover;
+    border: 3px solid pink;
+}
+
+.horizontal-cards-row {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    border: 5px solid #00ff00;
+    padding: 15px;
+}
+
+.card-horizontal {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 250px;
+    background-color: #1a1a1a;
+    border: 3px dashed #ff00ff;
+    padding: 25px;
+    gap: 15px;
+}
+
+.card-title {
+    border: 2px solid cyan;
+    font-size: 1.4rem;
+}
+
+.card-text {
+    border: 2px solid yellow;
+    font-size: 1rem;
+    color: #b3b3b3;
+    flex: 1;
+}
+
+.icon-slot {
+    border: 2px dashed red;
+    align-self: flex-end;
+    font-size: 2.5rem;
+    padding: 5px;
+}
